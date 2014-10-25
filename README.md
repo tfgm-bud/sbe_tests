@@ -1,6 +1,3 @@
-sbe_tests
-=========
-
 Simple test programs demonstrating encoding with c++ and decoding with python
 
 ...
