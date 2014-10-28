@@ -10,10 +10,10 @@ car = test.Car.Car()
 car.wrapForDecode(buffer, 0, car.sbeBlockLength(), car.sbeSchemaVersion(), length)
 
 # single fixed fields
-print('serialNumber: ' + str(car.getSerialNumber()))
-print('modelYear: ' + str(car.getModelYear()))
-print('available: ' + str(car.getAvailable()))
-print('code: ' + str(car.getCode()))
+print('serialNumber: '+str(car.getSerialNumber()))
+print('modelYear: '+str(car.getModelYear()))
+print('available: '+str(car.getAvailable()))
+print('code: '+str(car.getCode()))
 
 # fixed arrays
 for i in range(0,car.someNumbersLength()):
