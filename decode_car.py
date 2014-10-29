@@ -1,7 +1,7 @@
 import io
 import test.Car
 
-length = 113
+length = 129
 inp = io.open('car.bin', 'rb')
 buffer = inp.read(length)
 
@@ -51,3 +51,10 @@ while figures.hasNext():
         acceleration.next()
         print('mph: '+str(acceleration.getMph()))
         print('seconds: '+str(acceleration.getSeconds()))
+
+#variable length
+make = car.getMake()
+print('make: '+str(make))
+
+model = car.getModel()
+print('model: '+str(model))

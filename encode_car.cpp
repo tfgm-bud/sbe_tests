@@ -54,6 +54,9 @@ void encodeCar( Car &car, char *buffer, int offset, int bufferLength )
             .next().mph( 30 ).seconds( 3.8f )
             .next().mph( 60 ).seconds( 7.1f )
             .next().mph( 100 ).seconds( 11.8f );
+
+    car.putMake( MAKE, strlen( MAKE ) );
+    car.putModel( MODEL, strlen( MODEL ) );
 }
 
 int main( int argc, const char* argv[] )
